@@ -14,6 +14,7 @@
 		13A05DD61C9EB88B00ECF3E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A05DD51C9EB88B00ECF3E9 /* Images.xcassets */; };
 		13A05DD91C9EB88B00ECF3E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A05DD71C9EB88B00ECF3E9 /* LaunchScreen.xib */; };
 		13A05DE51C9EB88B00ECF3E9 /* UI_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A05DE41C9EB88B00ECF3E9 /* UI_demoTests.m */; };
+		13A05DF01C9ED4D400ECF3E9 /* userInfo_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A05DEF1C9ED4D400ECF3E9 /* userInfo_Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		13A05DDE1C9EB88B00ECF3E9 /* UI_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UI_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A05DE31C9EB88B00ECF3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13A05DE41C9EB88B00ECF3E9 /* UI_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_demoTests.m; sourceTree = "<group>"; };
+		13A05DEE1C9ED4D400ECF3E9 /* userInfo_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userInfo_Model.h; sourceTree = "<group>"; };
+		13A05DEF1C9ED4D400ECF3E9 /* userInfo_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userInfo_Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				13A05DD51C9EB88B00ECF3E9 /* Images.xcassets */,
 				13A05DD71C9EB88B00ECF3E9 /* LaunchScreen.xib */,
 				13A05DC81C9EB88B00ECF3E9 /* Supporting Files */,
+				13A05DEE1C9ED4D400ECF3E9 /* userInfo_Model.h */,
+				13A05DEF1C9ED4D400ECF3E9 /* userInfo_Model.m */,
 			);
 			path = UI_demo;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				13A05DD11C9EB88B00ECF3E9 /* ViewController.m in Sources */,
 				13A05DCE1C9EB88B00ECF3E9 /* AppDelegate.m in Sources */,
+				13A05DF01C9ED4D400ECF3E9 /* userInfo_Model.m in Sources */,
 				13A05DCB1C9EB88B00ECF3E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
