@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67DAF78E-C3AE-443A-9D58-476F3662C45B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UI_demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>64B6CB8864B67A176CF11714899BE00CDE1FCCB2</key>
+		<string>https://github.com/SendSi/UI_demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UI_demo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>64B6CB8864B67A176CF11714899BE00CDE1FCCB2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SendSi/UI_demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>64B6CB8864B67A176CF11714899BE00CDE1FCCB2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>64B6CB8864B67A176CF11714899BE00CDE1FCCB2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UI_demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

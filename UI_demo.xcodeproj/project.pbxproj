@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1389877E1CA0E4EF0021A7FF /* myXML_C.m in Sources */ = {isa = PBXBuildFile; fileRef = 138987791CA0E4EF0021A7FF /* myXML_C.m */; };
+		1389877F1CA0E4EF0021A7FF /* myXML_LoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389877B1CA0E4EF0021A7FF /* myXML_LoadData.m */; };
+		138987801CA0E4EF0021A7FF /* Video_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389877D1CA0E4EF0021A7FF /* Video_Model.m */; };
 		13A05DCB1C9EB88B00ECF3E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A05DCA1C9EB88B00ECF3E9 /* main.m */; };
 		13A05DCE1C9EB88B00ECF3E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A05DCD1C9EB88B00ECF3E9 /* AppDelegate.m */; };
 		13A05DD11C9EB88B00ECF3E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A05DD01C9EB88B00ECF3E9 /* ViewController.m */; };
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		138987791CA0E4EF0021A7FF /* myXML_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myXML_C.m; sourceTree = "<group>"; };
+		1389877A1CA0E4EF0021A7FF /* myXML_LoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myXML_LoadData.h; sourceTree = "<group>"; };
+		1389877B1CA0E4EF0021A7FF /* myXML_LoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myXML_LoadData.m; sourceTree = "<group>"; };
+		1389877C1CA0E4EF0021A7FF /* Video_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video_Model.h; sourceTree = "<group>"; };
+		1389877D1CA0E4EF0021A7FF /* Video_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video_Model.m; sourceTree = "<group>"; };
+		138987811CA0E5070021A7FF /* myXML_C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myXML_C.h; sourceTree = "<group>"; };
 		13A05DC51C9EB88B00ECF3E9 /* UI_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A05DC91C9EB88B00ECF3E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13A05DCA1C9EB88B00ECF3E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +72,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		138987821CA0E5220021A7FF /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				138987811CA0E5070021A7FF /* myXML_C.h */,
+				138987791CA0E4EF0021A7FF /* myXML_C.m */,
+				1389877A1CA0E4EF0021A7FF /* myXML_LoadData.h */,
+				1389877B1CA0E4EF0021A7FF /* myXML_LoadData.m */,
+				1389877C1CA0E4EF0021A7FF /* Video_Model.h */,
+				1389877D1CA0E4EF0021A7FF /* Video_Model.m */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
 		13A05DBC1C9EB88B00ECF3E9 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +106,7 @@
 		13A05DC71C9EB88B00ECF3E9 /* UI_demo */ = {
 			isa = PBXGroup;
 			children = (
+				138987821CA0E5220021A7FF /* xml */,
 				13A05DCC1C9EB88B00ECF3E9 /* AppDelegate.h */,
 				13A05DCD1C9EB88B00ECF3E9 /* AppDelegate.m */,
 				13A05DCF1C9EB88B00ECF3E9 /* ViewController.h */,
@@ -224,8 +247,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138987801CA0E4EF0021A7FF /* Video_Model.m in Sources */,
 				13A05DD11C9EB88B00ECF3E9 /* ViewController.m in Sources */,
+				1389877E1CA0E4EF0021A7FF /* myXML_C.m in Sources */,
 				13A05DCE1C9EB88B00ECF3E9 /* AppDelegate.m in Sources */,
+				1389877F1CA0E4EF0021A7FF /* myXML_LoadData.m in Sources */,
 				13A05DF01C9ED4D400ECF3E9 /* userInfo_Model.m in Sources */,
 				13A05DCB1C9EB88B00ECF3E9 /* main.m in Sources */,
 			);
@@ -418,6 +444,7 @@
 				13A05DEA1C9EB88B00ECF3E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13A05DEB1C9EB88B00ECF3E9 /* Build configuration list for PBXNativeTarget "UI_demoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +453,7 @@
 				13A05DED1C9EB88B00ECF3E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
